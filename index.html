@@ -1,15 +1,14 @@
 <!doctype html>
 
-<html lang="pl">
+<html lang="en">
 <head>
     <meta charset="utf-8" />
-    <title>Spójna wiedza o klientach generatorem korzyści (BI Insight S. A.)</title>
+    <title>Sylvester: Unified, typed, notation for symbolic mathematics and proofs</title>
     
-    <meta name="description" content="BI Insight S. A.: Spójna wiedza o klientach generatorem korzyści" />
-    <meta name="author" content="Krzysztof Mierzejewski (BI Insight S. A.)" />
+    <meta name="description" content="ML 2021 presentation" />
+    <meta nbame="author" content="Allister Beharry" />
 	<link rel="shortcut icon" type="image/png" href="/images/favicon.png"/>
-	<link rel="icon" type="image/png" href="http://bi.mierzej.com/images/favicon.png"/>
-    <link href="css/biinsight.css" rel="stylesheet" />
+    <link href="css/ml2021.css" rel="stylesheet" />
 
 </head>
 
@@ -19,41 +18,57 @@
 
     <div class="step slide title" style="background-color: transparent; border: 0; box-shadow: none;" id="Title" data-x="-1000" data-y="-1500">
         <h1>Sylvester</h1>
-        <h2>A unified, typed notation for symbolic math and proof</h2>
-		<h3 id="brand-logo">ICFP 2021</h3>
+        <h2>A unified, typed notation for symbolic mathematics and proof</h2>
+		<h3>Allister Beharry</h3>
+		<h4>August 22nd 2021</h4>
     </div>
 
-    <div id="About" class="step slide" data-rel-x="1220" data-rel-y="0">
-        <h1>Obraz <img style="vertical-align: text-bottom;" src="images/logo_inv.png" alt="BI Insight S. A." /></h1>
-		<h2 class="left">Od 2006 roku:</h2>
-		<img style="display: inline-block; width: 100%;" src="images/MindMap.png" />
-    </div>
-	
-	<div id="Cases" class="step slide" >
-        <h1 style="font-size: 1.75em;">A long time ago in a galaxy far, far away....</h1>
+	<div class="step slide" data-rel-x="1620" data-rel-y="0">
+        <h1 style="font-size: 1.75em;">Sylvester language...</h1>
 		<ul style="font-size: 125%; margin-left: 5px;">
-            <li>VOD za darmo, czyli <font style="filter: blur(5px);">Polak</font> potrafi:
+            <li>Things Sylvester is desgined to do
 				<ul>
-					<li>Netflix: 10% z 600 000 subskrybentów<br/>2 miliony <i>utraconego</i> dochodu miesięcznie</li>
-                    <li>HB GO: skrócenie okresu <i>testowego</i> do jednego tygodnia</li>
-					<li>Amazon Prime</li>
+					<li>Provide a unified language for representing and doing symbolic mathematics and logic</li>
+					<li>Provide a unifed interface to open-source math and logic tools like Maxima, </li>
+                    <li>Take advantage of modern functional language tools and environments, Visual Studio, Jupyter Notebooks.</li>
                 </ul>
 			</li>
-			<li>Benchmarki na podstawie liczby klientów:
+			<li>Things Sylvester not designed to do:
 				<ul>
-					<li>McKinsey&Company: <q>Where mergers go wrong</q></li>
-					<li>Churn rate</li></ul>
+					<li>Implementations of symbolic operations comparable to Maxima, GAP</q></li>
+					<li>High-performance numeric computing</li>
+				</ul>
+			</li>
+			
+        </ul>
+    </div>
+	<div class="step slide" data-rel-x="1620" data-rel-y="0">
+        <h1 style="font-size: 1.75em;">Overview...</h1>
+		<ul style="font-size: 125%; margin-left: 5px;">
+            <li>F# eDSL Leverage f
+				<ul>
+					<li>Leverage full power of a statically-typed object based functional language compared to DSL CAS lik</li>
+                    <li>Use first-class functions, inheritance</li>
+					<li>Use</li>
+                </ul>
+			</li>
+			<li>Contrast with DSLs for CAS:
+				<ul>
+					<li>Mathematica (Wolfram Language)</q></li>
+					<li>Maxima</li>
+					<li>MathCad</li>
+					<li>Maple</li>
+				</ul>
 			</li>
 			<li>Narodowy Fundusz Zdrowia: nadużycia <i>upcoding</i> i <i>unbundling</i>.</li>
         </ul>
     </div>
 
-    <div class="step slide" id="Priorities" data-rotate-x="90" data-rel-z="-500" data-rel-y="450" data-rel-x="0">
-        <h1>Potrzeby wg. szczebla kierowniczego</h1>
-		<h3 class="left" style="margin-top: unset;">Critical business priorities, global</h2>
-		<img style="display: inline-block; width: 100%;" src="images/CriticalBusinessPriorities.png" />
-		<blockquote>The 2018 global data management benchmark report</blockquote>
-		<p class="left bottom"><small>Source: <a href="https://www.edq.com/">Experian Data Quality</a></small></p>
+    <div class="step slide" data-rotate-x="90" data-rel-z="-500" data-rel-y="450" data-rel-x="0">
+        <h1>Object-oriented Abstract Algebra Representation</h1>
+		<h3 class="left" style="margin-top: unset;">Many, many potential classes...</h2>
+		<img style="display: inline-block; width: 100%;" src="images/mathstructures.png" />
+		<blockquote>https://math.chapman.edu/~jipsen/structures/doku.php/varieties</blockquote>
     </div>
 	
 	<div class="step slide" id="Advantage" data-rel-x="1220" data-rel-y="0" data-rel-z="0" data-rotate-x="90">
